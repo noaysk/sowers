@@ -34,14 +34,23 @@ function App() {
             <div className="w-3/5">
               <div className="bg-title-green h-128 top-48 flex justify-center">
                 <div className="pt-20 ">
+                  {/* <div className=" text-font text-xl font-bold relative">
+                    <p className="ml-10 "> 
+                      <div className="absolute bottom-0 w-80 h-3 bg-white "></div>
+                      <span className="relative z-10">
+                        「学ぶこと」ｘ「成長すること」
+                      </span> */}
+
                   <div className=" text-font text-xl font-bold ">
-                    <p className="ml-10">
-                      <span className="border-dashed border-b-4 border-white ">
+                    <p className="ml-10 relative z-10">
+                      <span className="relative after:absolute after:content-[''] after:bg-white after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1]">
                         「学ぶこと」ｘ「成長すること」
                       </span>
-                    </p>
 
-                    {/* <div className="bg-white h-2 w-80"></div> */}
+                      {/* <span className="border-dashed border-b-4 border-white ">
+                        「学ぶこと」ｘ「成長すること」
+                      </span> */}
+                    </p>
                   </div>
                   <img className="my-5" src={title} alt="" />
 
@@ -72,7 +81,6 @@ function App() {
             {/* <span className="inline-block bg-cyan-600"> プログラミングに興味はありますか？</span> */}
             <div className="bg-title-green h-20 p-5 mx-80 rounded-2xl">
               <span className="border-dashed border-b-8 border-white">
-             
                 プログラミングに興味はありますか？
               </span>
             </div>
