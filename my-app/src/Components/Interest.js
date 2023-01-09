@@ -14,8 +14,8 @@ const Intrest = () => {
     </div>
     <h2 className="text-3xl my-10 text-center">
       {/* <span className="inline-block bg-cyan-600"> プログラミングに興味はありますか？</span> */}
-      <div className="bg-title-green h-20 p-5 mx-80 rounded-2xl">
-        <span className="border-dashed border-b-8 border-white tracking-wider">
+      <div className="bg-title-green h-20 p-5 mx-80 rounded-2xl relative z-10">
+        <span className="relative after:absolute after:content-[''] after:bg-white after:h-[15px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded tracking-wider">
           プログラミングに興味はありますか？
         </span>
       </div>
