@@ -1,5 +1,5 @@
 import React from "react";
-import title from "../img/Group 4.png";
+import title from "../img/title.png";
 import top1 from "../img/top1.png";
 
 const Title = () => {
