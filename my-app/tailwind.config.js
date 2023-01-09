@@ -2,6 +2,9 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+    fontFamily: {
+      'sans': [ "Noto Sans JP", 'Arial', 'sans-serif'],
+    },
     extend: {
       colors: {
         "dark-purple": "#081A51",
