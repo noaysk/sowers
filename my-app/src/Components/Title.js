@@ -20,7 +20,7 @@ const Title = () => {
 
               <div className=" text-font text-xl font-bold ">
                 <p className="ml-10 relative z-10">
-                  <span className="relative after:absolute after:content-[''] after:bg-white after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1]">
+                  <span className="relative after:absolute after:content-[''] after:bg-white after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
                     「学ぶこと」ｘ「成長すること」
                   </span>
 
