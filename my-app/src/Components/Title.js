@@ -29,7 +29,7 @@ const Title = () => {
                   </span> */}
                 </p>
               </div>
-              <img className="my-5" src={title} alt="" />
+              <img className="my-5 " src={title} alt="" />
 
               <div className="my-10">
                 <button class="border-4 bg-slate-900 text-white font-bold border-slate-900 hover:bg-slate-900/75 py-2 px-4 rounded m-5">
@@ -43,7 +43,7 @@ const Title = () => {
           </div>
         </div>
 
-        <div className="w-2/5 mt-24">
+        <div className="w-2/5 ">
           <img className="my-0 mx-auto" src={top1} alt="" />
         </div>
       </div>
