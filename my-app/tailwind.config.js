@@ -11,7 +11,11 @@ module.exports = {
         "light-white": "rgba(255,255,255,0.17)",
         'title-green': '#6DBF6B',
         'font': '#053657',
-        // 'transparent-green': '#6DBF6B',
+        'blue': '#79D3F1',
+        'pink': '#FCABB6',
+        'green': '#70DA9D',
+        'yellow': '#FCDC4A',
+
 
       },
       height: {
