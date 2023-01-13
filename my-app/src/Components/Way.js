@@ -30,7 +30,7 @@ const Way = () => {
             家庭用ゲームや高度な技術を使ったゲーム制作などは、十分なプログラミング知識やゲームエンジンの使用スキルが備わっていないと難しいです。
             まず最初はそこにたどり着くための技術を一歩一歩手に入れていきましょう。{" "}
           </p>
-          <div>
+          <div className="mt-5">
             <p>学ぶ言語</p>
             <ul>
               <li>・C#</li>
@@ -55,7 +55,7 @@ const Way = () => {
             ・Web制作に関わる仕事に転職したい
             基礎的なことをしっかり理解していないと、応用ができずに壁にぶち当たってしまいます。またWebサイト制作にはサイトについてだけでなく、セキュリティやインターネット通信など色々な知識が必要となります。
           </p>
-          <div className="border-solid border-4 border-pink m-3 p-5 rounded-2xl">
+          <div className="mt-5">
             <p>学ぶ言語</p>
             <ul>
               <li>・HTML</li>
@@ -76,7 +76,7 @@ const Way = () => {
           <p className="break-words ">
             blablablablablablablablablablablablablablablablablablablablablablablabla
           </p>
-          <div>
+          <div className="mt-5">
             <p>学ぶ言語</p>
             <ul>
               <li>・</li>
@@ -102,7 +102,7 @@ const Way = () => {
             blablablablablablablablablablablablablablablablablablablablablablablabla{" "}
           </p>
           <div>
-            <p>学ぶ言語</p>
+            <p className="mt-5">学ぶ言語</p>
             <ul>
               <li>・</li>
               <li>・</li>
