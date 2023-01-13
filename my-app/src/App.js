@@ -2,6 +2,8 @@ import "./App.css";
 import Title from "./Components/Title";
 import Interest from "./Components/Interest";
 import Way from "./Components/Way";
+import Triangle from "./Components/Triangle";
+
 
 function App() {
   return (
@@ -9,6 +11,7 @@ function App() {
       <Title />
       <Interest />
       <Way />
+      <Triangle />
     </body>
   );
 }
