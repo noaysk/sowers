@@ -4,7 +4,7 @@ import bubble2 from "../img/bubble-2.png";
 import bubble3 from "../img/bubble-3.png";
 import hatena from "../img/hatena.png";
 
-const Intrest = () => {
+const Interest = () => {
 
   return (
     <div className="mx-80 my-40">
@@ -27,4 +27,4 @@ const Intrest = () => {
   );
 };
 
-export default Intrest;
+export default Interest;
