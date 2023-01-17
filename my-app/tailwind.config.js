@@ -6,8 +6,11 @@ module.exports = {
       'sans': [ "Noto Sans JP", 'Arial', 'sans-serif'],
     },
     extend: {
+      backgroundImage: {
+        'join-green': "url('/src/img/green.png')",
+      },
       colors: {
-        "dark-purple": "#081A51",
+        "font-color": "#053657",
         "light-white": "rgba(255,255,255,0.17)",
         'title-green': '#6DBF6B',
         'font': '#053657',
@@ -15,12 +18,13 @@ module.exports = {
         'pink': '#FCABB6',
         'green': '#70DA9D',
         'yellow': '#FCDC4A',
-
-
+        'orange': '#F9B963',
+        'purple': '#9A70D5',
       },
       height: {
         '128': '32rem',
-      }
+      },
+      
     },
   },
   plugins: [],
