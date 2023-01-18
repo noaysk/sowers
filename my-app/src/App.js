@@ -7,6 +7,7 @@ import Join from "./Components/Join";
 import Curriculum from "./Components/Curriculum";
 import Ticket from "./Components/Ticket";
 import Apply from "./Components/Apply";
+import Footer from "./Components/Footer";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Curriculum />
       <Ticket />
       <Apply />
+      <Footer />
 
     </body>
   );
