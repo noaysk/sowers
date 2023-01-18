@@ -2,76 +2,76 @@ import React from "react";
 
 const Ticket = () => {
   return (
-    <div class="">
+    <div className="">
       <h2 className="text-4xl mt-32 text-center">チケット料金</h2>
       <p className=" text-center py-5">
       </p>
 
-      <table class="w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
-        <thead class="text-xs text-gray-700 bg-title-green">
+      <table className="w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
+        <thead className="text-xs text-gray-700 bg-title-green">
           <tr>
-            <th scope="col" class="px-6 py-3">
+            <th scope="col" className="px-6 py-3">
               クラス
             </th>
-            <th scope="col" class="px-6 py-3"></th>
-            <th scope="col" class="px-6 py-3"></th>
-            <th scope="col" class="px-6 py-3"></th>
+            <th scope="col" className="px-6 py-3"></th>
+            <th scope="col" className="px-6 py-3"></th>
+            <th scope="col" className="px-6 py-3"></th>
           </tr>
         </thead>
         <tbody>
-          <tr class="bg-white border-b ">
+          <tr className="bg-white border-b ">
             <th
               scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
             >
               パソコン初心者クラス
             </th>
-            <td class="px-6 py-4"></td>
-            <td class="px-6 py-4"></td>
-            <td class="px-6 py-4"></td>
+            <td className="px-6 py-4"></td>
+            <td className="px-6 py-4"></td>
+            <td className="px-6 py-4"></td>
           </tr>
-          <tr class="bg-white border-b">
+          <tr className="bg-white border-b">
             <th
               scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
             >
               ゲーム制作　Javaクラス
             </th>
-            <td class="px-6 py-4">
+            <td className="px-6 py-4">
               Getting start with Java Using Alice (4 Hours)
             </td>
-            <td class="px-6 py-4">
+            <td className="px-6 py-4">
               Creating Java Programs with Greenfoot (8 Hours)
             </td>
-            <td class="px-6 py-4">
+            <td className="px-6 py-4">
               Programming the Finch Robot inn Greenfoot (8 Hours)
             </td>
           </tr>
-          <tr class="bg-white border-b">
+          <tr className="bg-white border-b">
             <th
               scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
             >
               ウェブサイト制作　HTML/CSS クラス
             </th>
-            <td class="px-6 py-4">
+            <td className="px-6 py-4">
               Start at the beginning by learning HTML basics (4 Hours)
             </td>
-            <td class="px-6 py-4">
+            <td className="px-6 py-4">
               Build a Website with HTML, CSS, and GitHub Pages (8 Hours)
             </td>
-            <td class="px-6 py-4">Learn CSS: Responsive Design (4 Hours)</td>
+            <td className="px-6 py-4">Learn CSS: Responsive Design (4 Hours)</td>
           </tr>
-          <tr class="bg-white">
+          <tr className="bg-white">
             <th
               scope="row"
-              class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
+              className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap"
             >
               データベース クラス
             </th>
-            <td class="px-6 py-4">Solve it with SQL (4 Hours)</td>
-            <td class="px-6 py-4">Database Foundations (8 Hours)</td>
-            <td class="px-6 py-4">
+            <td className="px-6 py-4">Solve it with SQL (4 Hours)</td>
+            <td className="px-6 py-4">Database Foundations (8 Hours)</td>
+            <td className="px-6 py-4">
               Database design and Programming with SQL (8 Hours)
             </td>
           </tr>

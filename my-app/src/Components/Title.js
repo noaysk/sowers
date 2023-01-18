@@ -18,10 +18,10 @@ const Title = () => {
               </div>
               <img className="my-5 " src={title} alt="" />
               <div className="my-10">
-                <button class="border-4 bg-slate-900 text-white font-bold border-slate-900 hover:bg-slate-900/75 py-2 px-4 rounded m-5">
+                <button className="border-4 bg-slate-900 text-white font-bold border-slate-900 hover:bg-slate-900/75 py-2 px-4 rounded m-5">
                   資料請求　＞
                 </button>
-                <button class="border-4 bg-white text-black font-bold border-slate-900 hover:bg-slate-300 py-2 px-4 rounded m-5">
+                <button className="border-4 bg-white text-black font-bold border-slate-900 hover:bg-slate-300 py-2 px-4 rounded m-5">
                   お問い合わせ
                 </button>
               </div>
