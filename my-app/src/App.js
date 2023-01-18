@@ -6,6 +6,7 @@ import Triangle from "./Components/Triangle";
 import Join from "./Components/Join";
 import Curriculum from "./Components/Curriculum";
 import Ticket from "./Components/Ticket";
+import Apply from "./Components/Apply";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Join />
       <Curriculum />
       <Ticket />
+      <Apply />
 
     </body>
   );
