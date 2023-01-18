@@ -8,8 +8,8 @@ const Curriculum = () => {
         現役エンジニア講師ならではの、厳選したノウハウを詰め込んでいます。
       </p>
 
-      <table class="w-128 mx-auto text-sm text-left text-gray-500 my-12">
-        <thead class="text-xs text-gray-700 bg-title-green">
+      <table class="w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
+        <thead class="text-xs text-gray-700 bg-title-green ">
           <tr>
             <th scope="col" class="px-6 py-3">
               クラス
