@@ -8,7 +8,7 @@ import join05 from "../img/05.png";
 const Join = () => {
   return (
     <div className="">
-      <div className="bg-join-green bg-[length:1700px_1100px] bg-no-repeat bg-contain bg-center">
+      <div className="bg-join-green bg-no-repeat bg-contain bg-center ">
         <h2 className="text-4xl mt-32 text-center">
           うちのスクールに参加しませんか？
         </h2>
