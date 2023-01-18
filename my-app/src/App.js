@@ -5,6 +5,7 @@ import Way from "./Components/Way";
 import Triangle from "./Components/Triangle";
 import Join from "./Components/Join";
 import Curriculum from "./Components/Curriculum";
+import Ticket from "./Components/Ticket";
 
 
 function App() {
@@ -16,6 +17,8 @@ function App() {
       <Triangle />
       <Join />
       <Curriculum />
+      <Ticket />
+
     </body>
   );
 }
