@@ -14,10 +14,9 @@ const Way = () => {
           目的別学習法から探す
         </h2>
       </div>
-
       <ul className="flex flex-row flex-wrap justify-center mx-24">
         <li className="bg-gray-300 w-0.5 mt-10"></li>
-        <li className=" w-72 m-10 ">
+        <li className="w-72 m-10 ">
           <img className="mx-auto object-contain h-48" src={notepc} alt="" />
           <p className="text-center my-5 relative z-10">
             <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-blue after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
