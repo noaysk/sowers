@@ -13,9 +13,9 @@ import MTitle from "./Components/mobile/Title";
 import MInterest from "./Components/mobile/Interest";
 import MWay from "./Components/mobile/Way";
 import MTriangle from "./Components/mobile/Triangle";
-
 import MJoin from "./Components/mobile/Join";
-
+import MCurriculum from "./Components/mobile/Curriculum";
+import MTicket from "./Components/mobile/Ticket";
 
 function App() {
   return (
@@ -39,7 +39,8 @@ function App() {
         <MWay />
         <MTriangle />
         <MJoin />
-
+        <MCurriculum />
+        <MTicket />
       </div>
     </div>
   );
