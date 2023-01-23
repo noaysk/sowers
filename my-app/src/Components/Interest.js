@@ -6,21 +6,50 @@ import hatena from "../img/hatena.png";
 
 const Interest = () => {
   return (
-    <section className="my-40">
-      <div className="flex flex-wrap justify-center">
-        <img className="object-contain w-96 mx-40" src={bubble1} alt="" />
-        <img className="object-contain w-[30rem] mx-40" src={bubble2} alt="" />
-      </div>
-      <h2 className="text-3xl my-5 text-center text-black">
-        <div className="bg-title-green h-20 p-5 w-[50rem] rounded-2xl relative z-10 mx-auto">
-          <span className="relative after:absolute after:content-[''] after:bg-white after:h-[15px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded tracking-wider">
-            プログラミングに興味はありますか？
-          </span>
+    <section className="">
+      <div className="hidden lg:block my-40">
+        <div className="flex flex-wrap justify-center">
+          <img className="object-contain w-96 mx-40" src={bubble1} alt="" />
+          <img
+            className="object-contain w-[30rem] mx-40"
+            src={bubble2}
+            alt=""
+          />
         </div>
-      </h2>
-      <div className="flex flex-wrap justify-center">
-        <img className="object-contain w-[32rem] mx-40" src={hatena} alt="" />
-        <img className="object-contain w-[28rem] mx-48" src={bubble3} alt="" />
+        <h2 className="text-3xl my-5 text-center text-black">
+          <div className="bg-title-green h-20 p-5 w-[50rem] rounded-2xl relative z-10 mx-auto">
+            <span className="relative after:absolute after:content-[''] after:bg-white after:h-[15px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded tracking-wider">
+              プログラミングに興味はありますか？
+            </span>
+          </div>
+        </h2>
+        <div className="flex flex-wrap justify-center">
+          <img className="object-contain w-[32rem] mx-40" src={hatena} alt="" />
+          <img
+            className="object-contain w-[28rem] mx-48"
+            src={bubble3}
+            alt=""
+          />
+        </div>
+      </div>
+
+      {/* モバイル用 */}
+      <div className="my-10 lg:hidden">
+        <div className="flex flex-wrap justify-center text-xl">
+          <img className="object-contain mr-8 w-32" src={bubble1} alt="" />
+          <img className="object-contain w-40" src={bubble2} alt="" />
+        </div>
+        <h2 className="text-center text-black my-3">
+          <div className="bg-title-green w-80 relative z-10 mx-auto rounded-md  p-2">
+            <span className="relative after:absolute after:content-[''] after:bg-white after:h-[8px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm tracking-wider">
+              プログラミングに興味はありますか？
+            </span>
+          </div>
+        </h2>
+        <div className="flex flex-wrap justify-center">
+          <img className="object-contain mx-5 w-40" src={hatena} alt="" />
+          <img className="object-contain w-32" src={bubble3} alt="" />
+        </div>
       </div>
     </section>
   );
