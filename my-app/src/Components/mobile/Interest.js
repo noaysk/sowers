@@ -13,7 +13,7 @@ const Interest = () => {
       </div>
       <h2 className="text-center text-black">
         <div className="bg-title-green w-80 relative z-10 mx-auto rounded-md text-sm p-2">
-          <span className="relative after:absolute after:content-[''] after:bg-white after:h-[8px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded tracking-wider">
+          <span className="relative after:absolute after:content-[''] after:bg-white after:h-[8px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm tracking-wider">
             プログラミングに興味はありますか？
           </span>
         </div>
