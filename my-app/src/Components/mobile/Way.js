@@ -1,5 +1,5 @@
 import React from "react";
-import bubble4 from "../../img/m-bubble-4.png";
+import bubble4 from "../../img/bubble-4.png";
 import notepc from "../../img/note-pc.png";
 import website from "../../img/website.png";
 import database from "../../img/database.png";
@@ -9,7 +9,7 @@ const Way = () => {
   return (
     <section>
       <div className="">
-        <img className="" src={bubble4} alt="" />
+        <img className="w-32 ml-5" src={bubble4} alt="" />
         <h2 className="  text-center">
           目的別学習法から探す
         </h2>
