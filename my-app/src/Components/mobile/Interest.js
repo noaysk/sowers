@@ -7,12 +7,12 @@ import hatena from "../../img/hatena.png";
 const Interest = () => {
   return (
     <section className="my-10">
-      <div className="flex flex-wrap justify-center">
-        <img className="object-contain mx-5 w-32 h-20" src={bubble1} alt="" />
-        <img className="object-contain w-32" src={bubble2} alt="" />
+      <div className="flex flex-wrap justify-center text-xl">
+        <img className="object-contain mr-8 w-32" src={bubble1} alt="" />
+        <img className="object-contain w-40" src={bubble2} alt="" />
       </div>
       <h2 className="text-center text-black my-3">
-        <div className="bg-title-green w-80 relative z-10 mx-auto rounded-md text-sm p-2">
+        <div className="bg-title-green w-80 relative z-10 mx-auto rounded-md  p-2">
           <span className="relative after:absolute after:content-[''] after:bg-white after:h-[8px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm tracking-wider">
             プログラミングに興味はありますか？
           </span>

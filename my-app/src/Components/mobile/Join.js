@@ -9,10 +9,10 @@ const Join = () => {
   return (
     <section className="">
       <div className="bg-join-green bg-no-repeat bg-contain bg-center ">
-        <h2 className="text-4xl mt-32 text-center">
+        <h2 className="text-xl mt-16 text-center">
           うちのスクールに参加しませんか？
         </h2>
-        <p className=" text-center pt-5"> SOWERSのスクールの特徴を紹介</p>
+        <p className="text-sm text-center pt-2"> SOWERSのスクールの特徴を紹介</p>
         <div className="mx-24">
           <ul className="flex flex-row flex-wrap justify-center mx-24">
             <li className="w-80 mx-20 mt-10">

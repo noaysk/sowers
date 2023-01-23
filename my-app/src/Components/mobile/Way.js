@@ -10,7 +10,7 @@ const Way = () => {
     <section>
       <div className="">
         <img className="w-32 ml-5" src={bubble4} alt="" />
-        <h2 className="  text-center">
+        <h2 className="text-xl  text-center">
           目的別学習法から探す
         </h2>
       </div>
