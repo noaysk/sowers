@@ -11,6 +11,7 @@ import Footer from "./Components/Footer";
 
 import MTitle from "./Components/mobile/Title";
 import MInterest from "./Components/mobile/Interest";
+import MWay from "./Components/mobile/Way";
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
       <div className=" lg:hidden ">
         <MTitle />
         <MInterest />
+        <MWay />
 
       </div>
     </div>
