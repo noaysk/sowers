@@ -22,6 +22,7 @@ module.exports = {
         'purple': '#9A70D5',
       },
       height: {
+        '104': '28rem',
         '128': '32rem',
       },
       width: {
