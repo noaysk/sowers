@@ -21,7 +21,7 @@ import MApply from "./Components/mobile/Apply";
 function App() {
   return (
     <div className="bg-title-green/25 font-sans text-font-color">
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
         <Title />
         <main>
           <Interest />
@@ -34,7 +34,7 @@ function App() {
         </main>
         <Footer />
       </div>
-      <div className=" md:hidden ">
+      <div className=" lg:hidden ">
         <MTitle />
         <main>
           <MInterest />
