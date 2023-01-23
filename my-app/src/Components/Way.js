@@ -18,12 +18,12 @@ const Way = () => {
         <li className="bg-gray-300 w-0.5 mt-10"></li>
         <li className="w-72 m-10 ">
           <img className="mx-auto object-contain h-48" src={notepc} alt="" />
-          <p className="text-center my-5 relative z-10">
+          <h3 className="text-center my-5 relative z-10">
             <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-blue after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
               PC用ゲーム
             </span>
             を制作したい
-          </p>
+          </h3>
           <p className="break-words ">
             簡単なゲームを最短1ヵ月ほどで制作。
             家庭用ゲームや高度な技術を使ったゲーム制作などは、十分なプログラミング知識やゲームエンジンの使用スキルが備わっていないと難しいです。
@@ -43,12 +43,12 @@ const Way = () => {
         <li className="bg-gray-300 w-0.5 mt-10"></li>
         <li className=" w-72 m-10 ">
           <img className="mx-auto object-contain h-48" src={website} alt="" />
-          <p className="text-center my-5 relative z-10">
+          <h3 className="text-center my-5 relative z-10">
             <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-pink after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
               ウェブサイト
             </span>
             を制作したい
-          </p>
+          </h3>
           <p className="break-words ">
             ・費用をかけずに自分でホームページを作りたい
             ・Web制作に関わる仕事に転職したい
@@ -66,12 +66,12 @@ const Way = () => {
         <li className="bg-gray-300 w-0.5 mt-10"></li>
         <li className=" w-72 m-10 ">
           <img className="mx-auto object-contain h-48" src={database} alt="" />
-          <p className="text-center my-5 relative z-10">
+          <h3 className="text-center my-5 relative z-10">
             <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-green after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
               データベース
             </span>
             を勉強したい
-          </p>
+          </h3>
           <p className="break-words ">
             blablablablablablablablablablablablablablablablablablablablablablablabla
           </p>
@@ -91,12 +91,12 @@ const Way = () => {
             src={smartphone}
             alt=""
           />
-          <p className="text-center my-5 relative z-10">
+          <h3 className="text-center my-5 relative z-10">
             <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-yellow after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
               スマホ用アプリ
             </span>
             を制作したい
-          </p>
+          </h3>
           <p className="break-words ">
             blablablablablablablablablablablablablablablablablablablablablablablabla{" "}
           </p>
