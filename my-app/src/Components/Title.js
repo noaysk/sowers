@@ -4,8 +4,7 @@ import top1 from "../img/top1.png";
 
 const Title = () => {
   return (
-    <div className=" ">
-      <div className="flex ">
+      <content className="flex">
         <div className="w-3/5">
           <div className="bg-title-green h-128 top-48 flex justify-center">
             <div className="pt-20 ">
@@ -31,8 +30,7 @@ const Title = () => {
         <div className="w-2/5 ">
           <img className="my-0 mx-auto" src={top1} alt="" />
         </div>
-      </div>
-    </div>
+      </content>
   );
 };
 

@@ -2,7 +2,7 @@ import React from "react";
 
 const Ticket = () => {
   return (
-    <div className="">
+    <section className="">
       <h2 className="text-4xl mt-32 text-center">チケット料金</h2>
       <p className=" text-center py-5">
       </p>
@@ -78,7 +78,7 @@ const Ticket = () => {
           
         </tbody>
       </table>
-    </div>
+    </section>
   );
 };
 

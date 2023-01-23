@@ -7,13 +7,12 @@ import join05 from "../img/05.png";
 
 const Join = () => {
   return (
-    <div className="">
+    <section className="">
       <div className="bg-join-green bg-no-repeat bg-contain bg-center ">
         <h2 className="text-4xl mt-32 text-center">
           うちのスクールに参加しませんか？
         </h2>
         <p className=" text-center pt-5"> SOWERSのスクールの特徴を紹介</p>
-
         <div className="mx-24">
           <ul className="flex flex-row flex-wrap justify-center mx-24">
             <li className="w-80 mx-20 mt-10">
@@ -99,7 +98,7 @@ const Join = () => {
           </ul>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

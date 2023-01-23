@@ -9,21 +9,28 @@ import Ticket from "./Components/Ticket";
 import Apply from "./Components/Apply";
 import Footer from "./Components/Footer";
 
+import MTitle from "./Components/mobile/Title";
 
 function App() {
   return (
-    <body className=" bg-title-green/25 font-sans text-font-color">
-      <Title />
-      <Interest />
-      <Way />
-      <Triangle />
-      <Join />
-      <Curriculum />
-      <Ticket />
-      <Apply />
-      <Footer />
-
-    </body>
+    <div className="bg-title-green/25 font-sans text-font-color">
+      <div className="hidden lg:block">
+        <Title />
+        <main>
+          <Interest />
+          <Way />
+          <Triangle />
+          <Join />
+          <Curriculum />
+          <Ticket />
+          <Apply />
+        </main>
+        <Footer />
+      </div>
+      <div className=" lg:hidden ">
+        <MTitle />
+      </div>
+    </div>
   );
 }
 

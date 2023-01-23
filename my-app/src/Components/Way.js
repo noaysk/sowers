@@ -7,7 +7,7 @@ import smartphone from "../img/smartphone.png";
 
 const Way = () => {
   return (
-    <div>
+    <section>
       <div className="mx-48">
         <img className="ml-32" src={bubble4} alt="" />
         <h2 className=" text-3xl text-center tracking-wider">
@@ -111,7 +111,7 @@ const Way = () => {
         </li>
         <li className="bg-gray-300 w-0.5 mt-10"></li>
       </ul>
-    </div>
+    </section>
   );
 };
 

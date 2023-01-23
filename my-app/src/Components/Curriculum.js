@@ -2,12 +2,11 @@ import React from "react";
 
 const Curriculum = () => {
   return (
-    <div className="">
+    <section className="">
       <h2 className="text-4xl mt-32 text-center">カリキュラム </h2>
       <p className=" text-center py-5">
         現役エンジニア講師ならではの、厳選したノウハウを詰め込んでいます。
       </p>
-
       <table className="w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
         <thead className="text-xs text-gray-700 bg-title-green ">
           <tr>
@@ -76,10 +75,9 @@ const Curriculum = () => {
               Database design and Programming with SQL (8 Hours)
             </td>
           </tr>
-          
         </tbody>
       </table>
-    </div>
+    </section>
   );
 };
 
