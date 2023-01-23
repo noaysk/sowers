@@ -9,7 +9,7 @@ const Join = () => {
   return (
     <section className="">
       <div className="bg-m-join-green bg-no-repeat bg-contain bg-center ">
-        <h2 className="text-xl mt-16 text-center">
+        <h2 className="text-xl mt-8 text-center">
           うちのスクールに参加しませんか？
         </h2>
         <p className="text-sm text-center pt-2"> SOWERSのスクールの特徴を紹介</p>
