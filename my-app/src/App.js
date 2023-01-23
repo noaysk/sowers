@@ -16,6 +16,7 @@ import MTriangle from "./Components/mobile/Triangle";
 import MJoin from "./Components/mobile/Join";
 import MCurriculum from "./Components/mobile/Curriculum";
 import MTicket from "./Components/mobile/Ticket";
+import MApply from "./Components/mobile/Apply";
 
 function App() {
   return (
@@ -35,12 +36,16 @@ function App() {
       </div>
       <div className=" lg:hidden ">
         <MTitle />
-        <MInterest />
-        <MWay />
-        <MTriangle />
-        <MJoin />
-        <MCurriculum />
-        <MTicket />
+        <main>
+          <MInterest />
+          <MWay />
+          <MTriangle />
+          <MJoin />
+          <MCurriculum />
+          <MTicket />
+          <MApply />
+        </main>
+        <Footer />
       </div>
     </div>
   );
