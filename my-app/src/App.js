@@ -12,6 +12,8 @@ import Footer from "./Components/Footer";
 import MTitle from "./Components/mobile/Title";
 import MInterest from "./Components/mobile/Interest";
 import MWay from "./Components/mobile/Way";
+import MTriangle from "./Components/mobile/Triangle";
+
 import MJoin from "./Components/mobile/Join";
 
 
@@ -35,6 +37,7 @@ function App() {
         <MTitle />
         <MInterest />
         <MWay />
+        <MTriangle />
         <MJoin />
 
       </div>
