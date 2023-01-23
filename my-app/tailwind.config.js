@@ -8,6 +8,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         'join-green': "url('/src/img/green.png')",
+        'm-join-green': "url('/src/img/m-green.png')",
+
       },
       colors: {
         "font-color": "#053657",
