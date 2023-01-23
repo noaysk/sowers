@@ -10,6 +10,8 @@ import Apply from "./Components/Apply";
 import Footer from "./Components/Footer";
 
 import MTitle from "./Components/mobile/Title";
+import MInterest from "./Components/mobile/Interest";
+
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
       </div>
       <div className=" lg:hidden ">
         <MTitle />
+        <MInterest />
+
       </div>
     </div>
   );
