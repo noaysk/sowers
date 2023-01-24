@@ -121,7 +121,7 @@ const Way = () => {
       {/* モバイル用 */}
       <div className="xl:hidden">
         <div className="">
-          <img className="w-32 ml-5 md:w-40 md:ml-32 lg:ml-40 lg:w-48" src={bubble4} alt="" />
+          <img className="w-32 ml-5 md:w-40 md:ml-32 lg:ml-48 lg:w-48" src={bubble4} alt="" />
           <h2 className="text-xl text-center">目的別学習法から探す</h2>
         </div>
         <ul className="flex flex-row flex-wrap justify-center">
