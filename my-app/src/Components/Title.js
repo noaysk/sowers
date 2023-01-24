@@ -38,7 +38,34 @@ const Title = () => {
 
       {/* モバイル用 */}
       <div className="xl:hidden">
-        <div className="bg-title-green h-104 md:h-128">
+        <div className="lg:flex bg-title-green h-128">
+            <div className="top-48 flex justify-center w-152">
+              <div className="pt-20 ">
+                <div className=" text-font text-xl font-bold ">
+                  <p className="ml-10 relative z-10">
+                    <span className="relative after:absolute after:content-[''] after:bg-white after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
+                      「学ぶこと」ｘ「成長すること」
+                    </span>
+                  </p>
+                </div>
+                <img className="my-5 " src={title} alt="" />
+                <div className="my-10">
+                  <button className="border-4 bg-slate-900 text-white font-bold border-slate-900 hover:bg-slate-900/75 py-2 px-4 rounded m-5">
+                    資料請求　＞
+                  </button>
+                  <button className="border-4 bg-white text-black font-bold border-slate-900 hover:bg-slate-300 py-2 px-4 rounded m-5">
+                    お問い合わせ
+                  </button>
+                </div>
+              </div>
+            </div>
+      
+          <div className="self-center w-80 mx-auto">
+            <img className="" src={mtop1} alt="" />
+          </div>
+        </div>
+
+        <div className="bg-title-green h-104 md:h-128 lg:hidden">
           <div className="pt-20">
             <div className="text-font text-sm font-bold md:ml-5">
               <p className="ml-8 relative z-10">
