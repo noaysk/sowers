@@ -102,12 +102,12 @@ const Join = () => {
           <p className="text-sm text-center pt-2">
             SOWERSのスクールの特徴を紹介
           </p>
-          <div className="md:mx-5">
+          <div className="md:mx-12">
             <ul className="flex flex-row flex-wrap justify-center">
               <li className="w-32 m-5 md:mx-8 md:w-48">
                 <p className="text-4xl md:text-5x">01</p>
                 <img
-                  className="mx-auto my-10 object-contain h-24 md:"
+                  className="mx-auto my-10 object-contain h-24"
                   src={join01}
                   alt=""
                 />
