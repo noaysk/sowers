@@ -7,7 +7,7 @@ import hatena from "../img/hatena.png";
 const Interest = () => {
   return (
     <section className="">
-      <div className="hidden lg:block my-40">
+      <div className="hidden xl:block my-40">
         <div className="flex flex-wrap justify-center">
           <img className="object-contain w-96 mx-40" src={bubble1} alt="" />
           <img
@@ -34,7 +34,7 @@ const Interest = () => {
       </div>
 
       {/* モバイル用 */}
-      <div className="my-10 lg:hidden">
+      <div className="my-10 xl:hidden">
         <div className="flex flex-wrap justify-center text-xl">
           <img className="object-contain mr-8 w-32 md:mr-24 md:w-48" src={bubble1} alt="" />
           <img className="object-contain w-40 md:w-56" src={bubble2} alt="" />
