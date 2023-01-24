@@ -17,7 +17,7 @@ const Interest = () => {
           />
         </div>
         <h2 className="text-3xl my-5 text-center text-black">
-          <div className="bg-title-green h-20 p-5 w-[50rem] rounded-2xl relative z-10 mx-auto">
+          <div className="bg-title-green h-20 p-5 w-[50rem] hover:w-[55rem] hover:text-4xl rounded-2xl relative z-10 mx-auto">
             <span className="relative after:absolute after:content-[''] after:bg-white after:h-[15px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded tracking-wider">
               プログラミングに興味はありますか？
             </span>

@@ -36,9 +36,10 @@ const Title = () => {
         </div>
       </div>
 
-      {/* モバイル用 */}
-      <div className="xl:hidden">
-        <div className="lg:flex bg-title-green h-128">
+
+
+
+      {/* <div className="min-lg:flex bg-title-green h-128 hidden">
             <div className="top-48 flex justify-center w-152">
               <div className="pt-20 ">
                 <div className=" text-font text-xl font-bold ">
@@ -65,7 +66,16 @@ const Title = () => {
           </div>
         </div>
 
-        <div className="bg-title-green h-104 md:h-128 lg:hidden">
+
+
+ */}
+
+
+
+
+      {/* モバイル用 */}
+      <div className="xl:hidden ">
+      <div className="bg-title-green h-104 md:h-128 ">
           <div className="pt-20">
             <div className="text-font text-sm font-bold md:ml-5">
               <p className="ml-8 relative z-10">
@@ -89,6 +99,10 @@ const Title = () => {
             </div>
           </div>
         </div>
+
+        
+
+        
       </div>
     </header>
   );

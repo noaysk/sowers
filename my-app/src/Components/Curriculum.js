@@ -4,7 +4,7 @@ const Curriculum = () => {
   return (
     <section className="">
       <div className="md:block hidden">
-        <h2 className="text-4xl mt-32 text-center">カリキュラム </h2>
+        <h2 className="text-4xl mt-32 text-center font-extrabold">カリキュラム </h2>
         <p className="text-center py-5">
           現役エンジニア講師ならではの、厳選したノウハウを詰め込んでいます。
         </p>

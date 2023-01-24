@@ -4,7 +4,7 @@ const Ticket = () => {
   return (
     <section className="">
       <div className="md:block hidden">
-        <h2 className="text-4xl mt-32 text-center">チケット料金</h2>
+        <h2 className="text-4xl mt-32 text-center font-extrabold">チケット料金</h2>
         <p className="text-center py-5"></p>
         <table className="w-[780px] lg:w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
           <thead className="text-xs text-gray-700 bg-title-green">
