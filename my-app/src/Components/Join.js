@@ -15,7 +15,7 @@ const Join = () => {
           </h2>
           <p className=" text-center pt-5"> SOWERSのスクールの特徴を紹介</p>
           <div className="mx-24">
-            <ul className="flex flex-row flex-wrap justify-center mx-24">
+            <ul className="flex flex-row flex-wrap justify-center mx-12 ">
               <li className="w-80 mx-20 mt-10">
                 <p className="text-6xl">01</p>
                 <img
