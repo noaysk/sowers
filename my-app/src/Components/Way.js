@@ -18,7 +18,11 @@ const Way = () => {
         <ul className="flex flex-row flex-wrap justify-center mx-24 bg-white rounded-3xl">
           <li className="bg-gray-300 w-0.5 my-10"></li>
           <li className="w-72 m-10 ">
-            <img className="mx-auto object-contain h-48 w-48" src={notepc} alt="" />
+            <img
+              className="mx-auto object-contain h-48 w-48"
+              src={notepc}
+              alt=""
+            />
             <h3 className="text-center my-5 relative z-10">
               <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-blue after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
                 PC用ゲーム
@@ -43,7 +47,11 @@ const Way = () => {
           </li>
           <li className="bg-gray-300 w-0.5 my-10"></li>
           <li className=" w-72 m-10 ">
-            <img className="mx-auto object-contain h-48 w-48" src={website} alt="" />
+            <img
+              className="mx-auto object-contain h-48 w-48"
+              src={website}
+              alt=""
+            />
             <h3 className="text-center my-5 relative z-10">
               <span className="text-xl font-mono relative after:absolute after:content-[''] after:bg-pink after:h-[12px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
                 ウェブサイト
@@ -119,13 +127,17 @@ const Way = () => {
       </div>
 
       {/* モバイル用 */}
-      <div className="xl:hidden ">
-        <div className="">
-          <img className="w-32 ml-5 md:w-40 md:ml-32 lg:ml-64 lg:w-48" src={bubble4} alt="" />
+      <div className="xl:hidden lg:bg-title-green lg:py-8">
+        <div className="mb-5">
+          <img
+            className="w-32 ml-5 md:w-40 md:ml-32 lg:ml-48 lg:w-48"
+            src={bubble4}
+            alt=""
+          />
           <h2 className="text-xl text-center">目的別学習法から探す</h2>
         </div>
-        <ul className="flex flex-row flex-wrap justify-center ">
-        <li className="lg:bg-gray-300 lg:w-0.5 lg:my-10"></li>
+        <ul className="flex flex-row flex-wrap justify-center  mx-16 lg:bg-white lg:rounded-3xl">
+          <li className="lg:bg-gray-300 lg:w-0.5 my-5"></li>
           <li className="w-32 m-5 ">
             <img className="mx-auto object-contain h-16" src={notepc} alt="" />
             <h3 className="text-center my-5 relative z-10 text-xs">
@@ -150,7 +162,7 @@ const Way = () => {
               </ul>
             </div>
           </li>
-          <li className="bg-gray-300 w-0.5 my-10"></li>
+          <li className="bg-gray-300 w-0.5 my-5"></li>
           <li className=" w-32 m-5 ">
             <img className="mx-auto object-contain h-16" src={website} alt="" />
             <h3 className="text-center my-5 relative z-10 text-xs">
@@ -173,10 +185,14 @@ const Way = () => {
               </ul>
             </div>
           </li>
-          <li className="md:bg-gray-300 md:w-0.5 md:my-10"></li>
+          <li className="md:bg-gray-300 md:w-0.5 my-5"></li>
 
-          <li className=" w-32 m-5 ">
-            <img className="mx-auto object-contain h-16" src={database} alt="" />
+          <li className="w-32 m-5">
+            <img
+              className="mx-auto object-contain h-16"
+              src={database}
+              alt=""
+            />
             <h3 className="text-center my-5 relative z-10 text-xs">
               <span className="block text-base font-mono relative after:absolute after:content-[''] after:bg-green after:h-[10px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
                 データベース
@@ -195,9 +211,13 @@ const Way = () => {
               </ul>
             </div>
           </li>
-          <li className="bg-gray-300 w-0.5 my-10"></li>
+          <li className="bg-gray-300 w-0.5 my-5"></li>
           <li className=" w-32 m-5 ">
-            <img className="mx-auto object-contain h-16" src={smartphone} alt="" />
+            <img
+              className="mx-auto object-contain h-16"
+              src={smartphone}
+              alt=""
+            />
             <h3 className="text-center my-5 relative z-10 text-xs">
               <span className="block text-base font-mono relative after:absolute after:content-[''] after:bg-yellow after:h-[10px] after:bottom-0 after:left-0 after:right-0 after:z-[-1] after:rounded-sm">
                 スマホ用アプリ
@@ -216,7 +236,7 @@ const Way = () => {
               </ul>
             </div>
           </li>
-          <li className="lg:bg-gray-300 lg:w-0.5 lg:my-10"></li>
+          <li className="lg:bg-gray-300 lg:w-0.5 my-5"></li>
         </ul>
       </div>
     </section>
