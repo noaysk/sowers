@@ -3,12 +3,12 @@ import React from "react";
 const Curriculum = () => {
   return (
     <section className="">
-      <div className="hidden lg:block">
+      <div className="md:block hidden">
         <h2 className="text-4xl mt-32 text-center">カリキュラム </h2>
-        <p className=" text-center py-5">
+        <p className="text-center py-5">
           現役エンジニア講師ならではの、厳選したノウハウを詰め込んでいます。
         </p>
-        <table className="w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
+        <table className="w-[780px] lg:w-[1000px] mx-auto text-sm text-left text-gray-500 my-12 ">
           <thead className="text-xs text-gray-700 bg-title-green ">
             <tr>
               <th scope="col" className="px-6 py-3">
@@ -83,7 +83,7 @@ const Curriculum = () => {
       </div>
 
       {/* モバイル用 */}
-      <div className="lg:hidden">
+      <div className="md:hidden">
         <h2 className="text-xl mt-16 text-center">カリキュラム </h2>
         <h3 className="text-sm text-center">
           現役エンジニア講師ならではの

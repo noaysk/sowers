@@ -95,19 +95,19 @@ const Join = () => {
 
       {/* モバイル用 */}
       <div className="lg:hidden">
-        <div className="bg-m-join-green bg-no-repeat bg-contain bg-center ">
+        <div className="bg-m-join-green bg-no-repeat bg-contain bg-center md:bg-join-green">
           <h2 className="text-xl mt-8 text-center">
             うちのスクールに参加しませんか？
           </h2>
           <p className="text-sm text-center pt-2">
             SOWERSのスクールの特徴を紹介
           </p>
-          <div className="">
+          <div className="md:mx-5">
             <ul className="flex flex-row flex-wrap justify-center">
-              <li className="w-32 m-5">
-                <p className="text-4xl">01</p>
+              <li className="w-32 m-5 md:mx-8 md:w-48">
+                <p className="text-4xl md:text-5x">01</p>
                 <img
-                  className="mx-auto my-10 object-contain h-24"
+                  className="mx-auto my-10 object-contain h-24 md:"
                   src={join01}
                   alt=""
                 />
@@ -119,8 +119,8 @@ const Join = () => {
                 </p>
               </li>
 
-              <li className="w-32 m-5">
-                <p className="text-4xl">02</p>
+              <li className="w-32 m-5 md:mx-8 md:w-48 md:mt-16">
+                <p className="text-4xl md:text-5xl">02</p>
                 <img
                   className="mx-auto my-10 object-contain h-24"
                   src={join02}
@@ -133,8 +133,8 @@ const Join = () => {
                   blablablablablablablablablablablablablablablablablablablablablablablabla
                 </p>
               </li>
-              <li className="w-32 m-5">
-                <p className="text-4xl">03</p>
+              <li className="w-32 m-5 md:mx-8 md:w-48 md:mt-32">
+                <p className="text-4xl md:text-5xl">03</p>
                 <img
                   className="mx-auto my-10 object-contain h-24"
                   src={join03}
@@ -147,8 +147,8 @@ const Join = () => {
                   blablablablablablablablablablablablablablablablablablablablablablablabla
                 </p>
               </li>
-              <li className="w-32 m-5">
-                <p className="text-4xl">04</p>
+              <li className="w-32 m-5 md:mx-8 md:w-48">
+                <p className="text-4xl md:text-5xl">04</p>
                 <img
                   className="mx-auto my-10 object-contain h-24"
                   src={join04}
@@ -163,8 +163,8 @@ const Join = () => {
                   blablablablablablablablablablablablablablablablablablablablablablablabla
                 </p>
               </li>
-              <li className="w-32 m-5">
-                <p className="text-4xl">05</p>
+              <li className="w-32 m-5 md:mx-8 md:w-48 md:mt-16">
+                <p className="text-4xl md:text-5xl">05</p>
                 <img
                   className="mx-auto my-10 object-contain h-24"
                   src={join05}
