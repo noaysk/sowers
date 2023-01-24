@@ -8,7 +8,7 @@ import smartphone from "../img/smartphone.png";
 const Way = () => {
   return (
     <section>
-      <div className="hidden lg:block">
+      <div className="hidden xl:block">
         <div className="mx-48">
           <img className="ml-32" src={bubble4} alt="" />
           <h2 className=" text-3xl text-center tracking-wider">
@@ -119,7 +119,7 @@ const Way = () => {
       </div>
 
       {/* モバイル用 */}
-      <div className="lg:hidden">
+      <div className="xl:hidden">
         <div className="">
           <img className="w-32 ml-5 md:w-40 md:ml-32" src={bubble4} alt="" />
           <h2 className="text-xl text-center">目的別学習法から探す</h2>

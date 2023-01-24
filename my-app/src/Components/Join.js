@@ -8,7 +8,7 @@ import join05 from "../img/05.png";
 const Join = () => {
   return (
     <section className="">
-      <div className="hidden lg:block">
+      <div className="hidden xl:block">
         <div className="bg-join-green bg-no-repeat bg-contain bg-center ">
           <h2 className="text-4xl mt-32 text-center">
             うちのスクールに参加しませんか？
@@ -94,7 +94,7 @@ const Join = () => {
       </div>
 
       {/* モバイル用 */}
-      <div className="lg:hidden">
+      <div className="xl:hidden">
         <div className="bg-m-join-green bg-no-repeat bg-contain bg-center md:bg-join-green">
           <h2 className="text-xl mt-8 text-center">
             うちのスクールに参加しませんか？

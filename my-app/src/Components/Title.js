@@ -6,7 +6,7 @@ import mtop1 from "../img/m-top.png";
 const Title = () => {
   return (
     <header>
-      <div className="hidden lg:block">
+      <div className="hidden xl:block">
         <div className="flex ">
           <div className="w-3/5">
             <div className="bg-title-green h-128 top-48 flex justify-center">
@@ -37,7 +37,7 @@ const Title = () => {
       </div>
 
       {/* モバイル用 */}
-      <div className="lg:hidden">
+      <div className="xl:hidden">
         <div className="bg-title-green h-104 md:h-128">
           <div className="pt-20">
             <div className="text-font text-sm font-bold md:ml-5">
