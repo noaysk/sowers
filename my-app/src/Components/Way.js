@@ -125,6 +125,7 @@ const Way = () => {
           <h2 className="text-xl text-center">目的別学習法から探す</h2>
         </div>
         <ul className="flex flex-row flex-wrap justify-center">
+        <li className="lg:bg-gray-300 lg:w-0.5 lg:mt-10"></li>
           <li className="w-32 m-5 ">
             <img className="mx-auto object-contain" src={notepc} alt="" />
             <h3 className="text-center my-5 relative z-10 text-xs">
@@ -215,6 +216,7 @@ const Way = () => {
               </ul>
             </div>
           </li>
+          <li className="lg:bg-gray-300 lg:w-0.5 lg:mt-10"></li>
         </ul>
       </div>
     </section>
