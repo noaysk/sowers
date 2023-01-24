@@ -102,7 +102,7 @@ const Join = () => {
           <p className="text-sm text-center pt-2">
             SOWERSのスクールの特徴を紹介
           </p>
-          <div className="md:mx-12">
+          <div className="lg:mx-12 md:mx-5">
             <ul className="flex flex-row flex-wrap justify-center">
               <li className="w-32 m-5 md:mx-8 md:w-48">
                 <p className="text-4xl md:text-5x">01</p>
